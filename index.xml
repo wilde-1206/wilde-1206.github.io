@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>吴大脸</title>
+    <link>https://wudalian.com/</link>
+    <description>Recent content on 吴大脸</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 28 Dec 2023 11:45:09 +0800</lastBuildDate>
+    <atom:link href="https://wudalian.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://wudalian.com/posts/test/</link>
+      <pubDate>Thu, 28 Dec 2023 11:45:09 +0800</pubDate>
+      <guid>https://wudalian.com/posts/test/</guid>
+      <description>一个测试 </description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://wudalian.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wudalian.com/about/</guid>
+      <description>Ut vitae sagittis tortor. Aliquam euismod vel elit id porttitor. Sed sit amet feugiat urna, quis semper ipsum. Ut vitae ligula ultrices, porttitor ipsum nec, accumsan est. Nunc posuere felis non mauris volutpat interdum. Sed consequat arcu est, eget consequat enim feugiat rhoncus. Nunc sit amet rhoncus libero, venenatis tristique eros. Duis feugiat sem ac eros maximus gravida. Cras mollis vulputate risus, eget tincidunt neque porttitor vitae. Sed sit amet volutpat urna.</description>
+    </item>
+  </channel>
+</rss>
