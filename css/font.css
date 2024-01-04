@@ -19,3 +19,11 @@
   font-weight: italic;
   font-style: italic;
 }
+@font-face {
+  font-family: 'Unifont';
+  src: local('Unifont'),
+    url('/fonts/Unifont.woff2') format("woff2");
+  font-weight: italic;
+  font-style: italic;
+}
+
