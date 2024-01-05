@@ -37,13 +37,13 @@ header .header-content{
   text-align: center;
 }
 #brand .icon {
-  width: 50px;
+  width: 38px;
 }
 #brand .text{
   margin-left: 10px;
 }
 #brand .text a {
-  font-size: 40px;
+  font-size: 36px;
   font-family: Unifont;
   text-decoration: none;
   font-weight: 600;
@@ -62,7 +62,7 @@ header nav a{
 }
 
 header nav a:hover{
-  color: #000000;
+  color: #1A73E8;
 }
 
 main{
@@ -98,19 +98,25 @@ main{
   color:#555555;
   font-size: 15px;
   line-height: 25px;
+  margin-top: 10px;
 }
-.content p{
+
+.post-meta .content p{
   margin-top: 10px;
 }
 .post-meta{
   color: #A6A4A4;
   margin-top: 10px;
+  font-size:14px;
 }
 .post-meta a{
   color: #A6A4A4;
 }
-.tags a{
-  color:#54b9d1;
+.post-tags {
+  margin-top: 10px;
+}
+.post-tags a{
+  color:#1A73E8;
 }
 .pagination{
   margin-top: 30px;
@@ -177,7 +183,7 @@ main{
 
 .term .entit{
   font-size: 14px;
-  color:#54b9d1;
+  color:#1A73E8;
 }
 
 .term .count{
@@ -193,8 +199,9 @@ main{
 
 .tags a{
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: #F1F1F1;
+  color:#1A73E8;
 }
 
 .tags span.count{
@@ -229,6 +236,36 @@ main{
   color: #555555;
 }
 
+/*article*/
+article{
+  margin-top: 40px;
+}
+article .title{
+  font-size: 38px;
+  font-weight: 300;
+}
+article .content{
+  margin-top: 30px;
+  font-size: 18px;
+  color:#555555;
+}
+article .date{
+  margin-top: 30px;
+  padding-bottom: 10px;
+  text-align: right;
+  font-size: 14px;
+  border-bottom: 1px solid #F1F1F1;
+  color: #A6A4A4;
+}
+
+.post-meta-detail{
+  color: #A6A4A4;
+  margin-top:10px;
+  font-size:14px;
+}
+.post-meta-detail a{
+  color: #1A73E8;
+}
 
 footer {
   max-width: 900px;
@@ -238,7 +275,7 @@ footer {
   font-size: 14px;
 }
 footer a{
-  color:#54b9d1;
+  color:#1A73E8;
 }
 footer a:hover{
   text-decoration: underline;
