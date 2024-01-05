@@ -26,6 +26,7 @@ header .header-content{
   display: flex;
   flex-direction: row;
   justify-content:space-between;
+  width: 100%;
   max-width: 900px;
   margin: 0 auto; 
 }
@@ -66,17 +67,20 @@ header nav a:hover{
 }
 
 main{
+  width: 100%;
   max-width: 900px;
   margin: 0 auto;  
 }
 #banner{
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
   margin: 0 auto;
   background-color: #F1F1F1;
   border-radius:10px;
 }
 #banner .banner-content{
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
@@ -132,7 +136,8 @@ main{
   overflow: hidden;
 }
 .page-menu p{
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
   height: 45px;
   margin: 0 auto;
   display: flex;
@@ -161,9 +166,6 @@ main{
   color: #A6A4A4;
   font-size: 16px;
   
-}
-#postsByDate div, #postsInOneGroup div {
-  display: inline-block;
 }
 /*category*/
 #terms{
@@ -202,6 +204,7 @@ main{
   border-radius: 10px;
   background-color: #F1F1F1;
   color:#1A73E8;
+  margin-right: 10px;
 }
 
 .tags span.count{
@@ -287,37 +290,102 @@ footer a:hover{
   #root {
     margin-top: 25px;
   }
-  #brand {
+  header .header-content{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto; 
+  }
+  header nav {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+    display: flex;
     flex-direction: row;
-    text-align: unset;
+    justify-content: space-between;
   }
-  #brand .text {
-    margin-left: 10px;
+  header nav a{
+    font-size: 16px;
+    margin-left: 0px;
+    color: #626262;
   }
-  #brand h1 {
-    font-size: 45px;
+  #content{
+    padding: 10px;
+    box-sizing: border-box;
   }
-  #brand h3 {
-    font-size: 25px;
+  .page-menu{
+    width: 100%;
+    background-color: #F1F1F1;
+    margin-top: 0px;
+    overflow: hidden;
+    border-radius: 4px;
   }
+  .page-menu p{
+    width: 100%;
+    height: 45px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .page-menu p span{
+    font-size: 16px;
+    border-bottom: 2px solid #000000;
+  }
+
   #postsByDate  {
   list-style: none;
   }
-  #postsByDate .date {
-    width: 60px;
-  }
-  #postsByDate div, #postsInOneGroup div {
-    display: inline-block;
-  }
-  #terms {
+  #postsByDate li {
+    display: flex;
+    flex-direction: column;
     list-style: none;
+    height:auto;
+    line-height: normal;
+    border-bottom: 1px solid #E1E1E1;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 0px;
   }
-  #terms .term {
-    background-color: #ddd;
-    border-radius: 10px;
-    display: inline-block;
-    margin: 2px;
-    padding: 8px;
+  #postsByDate li .title{
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  #postsByDate .date {
+    width: 100px;
+    color: #A6A4A4;
+    font-size: 16px;
+  }
+  
+  #terms{
+    list-style: none;
+    margin-top: 20px;
+  }
+
+  .term{
+    list-style: inside;
+    height:auto;
+    margin-top: 15px;
+  }
+
+  .term .zhtit{
+    font-size: 16px;
+    color:#000;
+  }
+
+  .term .entit{
+    font-size: 14px;
+    color:#1A73E8;
+  }
+
+  .term .count{
+    font-size: 14px;
+    color:#626262;
+    margin-left: 10px;
+  }
+  footer{
+    text-align: center;
   }
 }
 
