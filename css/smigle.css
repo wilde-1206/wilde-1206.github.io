@@ -257,6 +257,13 @@ article .content p{
   line-height: 32px;
   text-indent: 36px;
 }
+article .content p img{
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
 article .date{
   margin-top: 30px;
   padding-bottom: 10px;
