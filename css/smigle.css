@@ -259,6 +259,7 @@ article .content p{
   text-indent: 36px;
 }
 article .content p img{
+  width: 100%;
   max-width: 500px;
   height: auto;
   display: block;
