@@ -105,8 +105,9 @@ main{
   margin-top: 10px;
 }
 
-.post-meta .content p{
+.summary .content p{
   margin-top: 10px;
+  text-indent: 0px !important;
 }
 .post-meta{
   color: #A6A4A4;
