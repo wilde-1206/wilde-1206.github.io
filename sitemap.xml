@@ -2,99 +2,111 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://wudalian.com/posts/separation-anxiety/</loc>
-    <lastmod>2024-07-05T10:05:45+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/</loc>
+    <lastmod>2024-07-05T10:05:45+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/categories/</loc>
-    <lastmod>2024-07-05T10:05:45+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/categories/fiction/</loc>
+    <lastmod>2024-07-05T10:05:45+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/categories/fiction/</loc>
-    <lastmod>2024-07-05T10:05:45+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/tags/index/</loc>
+    <lastmod>2024-07-05T10:05:45+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/posts/</loc>
-    <lastmod>2024-07-05T10:05:45+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/post/</loc>
+    <lastmod>2024-07-05T10:05:45+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/tags/</loc>
-    <lastmod>2024-07-05T10:05:45+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/tags/</loc>
+    <lastmod>2024-07-05T10:05:45+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/</loc>
-    <lastmod>2024-07-05T10:05:45+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/post/separation-anxiety/</loc>
+    <lastmod>2024-07-05T10:05:45+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/tags/%E5%86%99%E4%BD%9C%E7%BB%83%E4%B9%A0/</loc>
-    <lastmod>2024-07-05T10:05:45+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/categories/</loc>
+    <lastmod>2024-07-05T10:05:45+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/posts/mental-patient/</loc>
-    <lastmod>2024-07-04T15:53:05+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/tags/%E5%86%99%E4%BD%9C%E7%BB%83%E4%B9%A0/</loc>
+    <lastmod>2024-07-05T10:05:45+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/categories/somebigbadidea/</loc>
-    <lastmod>2024-06-26T15:22:05+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/post/mental-patient/</loc>
+    <lastmod>2024-07-04T15:53:05+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/posts/iron-pan-ode/</loc>
-    <lastmod>2024-06-26T15:22:05+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/categories/somebigbadidea/</loc>
+    <lastmod>2024-06-26T15:22:05+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/categories/poem/</loc>
-    <lastmod>2024-06-21T10:19:22+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/post/iron-pan-ode/</loc>
+    <lastmod>2024-06-26T15:22:05+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/posts/does-this-sound-like-a-poem/</loc>
-    <lastmod>2024-06-21T10:19:22+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/categories/poem/</loc>
+    <lastmod>2024-06-21T10:19:22+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/posts/ordinary-outdoor-enthusiast/</loc>
-    <lastmod>2024-05-30T10:05:22+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/post/does-this-sound-like-a-poem/</loc>
+    <lastmod>2024-06-21T10:19:22+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/posts/the-meaning-of-labor/</loc>
-    <lastmod>2024-04-25T10:15:22+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/post/ordinary-outdoor-enthusiast/</loc>
+    <lastmod>2024-05-30T10:05:22+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/posts/take-a-picture-of-a-picture/</loc>
-    <lastmod>2024-04-24T09:04:05+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/post/the-meaning-of-labor/</loc>
+    <lastmod>2024-04-25T10:15:22+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/posts/plotting-revenge-on-a-rainy-day/</loc>
-    <lastmod>2024-04-18T08:03:32+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/post/take-a-picture-of-a-picture/</loc>
+    <lastmod>2024-04-24T09:04:05+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/posts/a-noble-person-and-the-nihilism-of-morality/</loc>
-    <lastmod>2024-03-21T15:29:05+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/post/plotting-revenge-on-a-rainy-day/</loc>
+    <lastmod>2024-04-18T08:03:32+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/posts/the-night-of-reykjav%C3%ADk/</loc>
-    <lastmod>2024-03-15T15:53:32+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/post/a-noble-person-and-the-nihilism-of-morality/</loc>
+    <lastmod>2024-03-21T15:29:05+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/posts/the-last-day-of-1999/</loc>
-    <lastmod>2024-03-08T18:04:05+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/post/the-night-of-reykjav%C3%ADk/</loc>
+    <lastmod>2024-03-15T15:53:32+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/posts/in-a-cabin-in-the-snow/</loc>
-    <lastmod>2024-02-27T16:43:32+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/post/the-last-day-of-1999/</loc>
+    <lastmod>2024-03-08T18:04:05+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/posts/elder-sister/</loc>
-    <lastmod>2024-02-02T15:53:32+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/post/in-a-cabin-in-the-snow/</loc>
+    <lastmod>2024-02-27T16:43:32+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/categories/cooking/</loc>
-    <lastmod>2024-01-18T13:09:33+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/post/elder-sister/</loc>
+    <lastmod>2024-02-02T15:53:32+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/tags/%E5%90%83%E9%A5%AD/</loc>
-    <lastmod>2024-01-18T13:09:33+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/categories/cooking/</loc>
+    <lastmod>2024-01-18T13:09:33+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/posts/zucchini-and-beef-bibimbap/</loc>
-    <lastmod>2024-01-18T13:09:33+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/tags/%E5%90%83%E9%A5%AD/</loc>
+    <lastmod>2024-01-18T13:09:33+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/tags/%E6%88%91%E7%9A%84%E7%9C%BC%E7%96%BE/</loc>
-    <lastmod>2024-01-11T18:34:48+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/post/zucchini-and-beef-bibimbap/</loc>
+    <lastmod>2024-01-18T13:09:33+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/posts/my-eye-disease-01/</loc>
-    <lastmod>2024-01-11T18:34:48+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/tags/%E6%88%91%E7%9A%84%E7%9C%BC%E7%96%BE/</loc>
+    <lastmod>2024-01-11T18:34:48+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/categories/joke/</loc>
-    <lastmod>2024-01-05T11:10:17+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/post/my-eye-disease-01/</loc>
+    <lastmod>2024-01-11T18:34:48+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/posts/do-you-know-where-spongebob-works/</loc>
-    <lastmod>2024-01-05T11:10:17+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/categories/joke/</loc>
+    <lastmod>2024-01-05T11:10:17+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/tags/%E7%AC%91%E8%AF%9D/</loc>
-    <lastmod>2024-01-05T11:10:17+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/post/do-you-know-where-spongebob-works/</loc>
+    <lastmod>2024-01-05T11:10:17+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/tags/blog/</loc>
-    <lastmod>2024-01-04T18:04:05+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/tags/%E7%AC%91%E8%AF%9D/</loc>
+    <lastmod>2024-01-05T11:10:17+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/posts/my-new-blog/</loc>
-    <lastmod>2024-01-04T18:04:05+08:00</lastmod>
+    <loc>https://hugo-paper.vercel.app/tags/blog/</loc>
+    <lastmod>2024-01-04T18:04:05+00:00</lastmod>
   </url><url>
-    <loc>https://wudalian.com/about/</loc>
+    <loc>https://hugo-paper.vercel.app/post/my-new-blog/</loc>
+    <lastmod>2024-01-04T18:04:05+00:00</lastmod>
+  </url><url>
+    <loc>https://hugo-paper.vercel.app/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugo-paper.vercel.app/contact/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugo-paper.vercel.app/about/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugo-paper.vercel.app/series/</loc>
   </url>
 </urlset>

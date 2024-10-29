@@ -1,361 +1,436 @@
-<!DOCTYPE html>
-<html lang="zh">
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="zh"
+  dir="ltr"
+>
   <head>
-	<meta name="generator" content="Hugo 0.121.1">
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
   
-  
-    <title>吴大脸—让叙述构建另一种存在吧！</title>
+  <title>你要去的地方-吴大脸</title>
   
 
-  <meta name="description" content="尽管这一切有点糟，但到了要离别的时刻，我仍旧感到不舍与感伤。" />
-  <link rel="stylesheet" href="/css/font.css"/>
-  <link rel="stylesheet" href="/css/smigle.css"/>
   
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  
+  <meta
+    name="description"
+    content="A personal blog"
+  />
+  <meta name="author" content="吴大脸" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://hugo-paper.vercel.app/main.min.css" />
+
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/theme.png" />
+
+  
+  
+  
+  
+  <link rel="preload" as="image" href="/avatar.jpg" />
+  
+  
+
+  
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/mastodon.svg" />
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  <link
+    rel="icon"
+    href="https://hugo-paper.vercel.app/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="https://hugo-paper.vercel.app/apple-touch-icon.png"
+  />
+
+  
+  <meta name="generator" content="Hugo 0.136.4">
+
+  
+  
+  
+  
+  
+  
+  <meta itemprop="name" content="你要去的地方">
+  <meta itemprop="datePublished" content="2024-07-05T10:05:45+00:00">
+  <meta itemprop="dateModified" content="2024-07-05T10:05:45+00:00">
+  
+  <meta property="og:url" content="https://hugo-paper.vercel.app/">
+  <meta property="og:site_name" content="你要去的地方">
+  <meta property="og:title" content="你要去的地方">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="website">
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="你要去的地方">
+
+  
+  
+  <link
+    rel="alternate"
+    type="application/rss&#43;xml"
+    href="https://hugo-paper.vercel.app/index.xml"
+    title="你要去的地方"
+  />
+  
+
+  
+  <link rel="canonical" href="https://hugo-paper.vercel.app/" />
+  
+  
 </head>
 
-  <body>
-    <div id="root">
-      <header>
-<div class="header-content" >
-  <div id="brand">
-    <a class="icon-link" href="https://wudalian.com/"><img class="icon" src="/images/logo.png" /></a>
-    <div class="text">
-      <a href="https://wudalian.com/">吴大脸</a>
-    </div>
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-[--w] px-8 lg:justify-center">
+  <div class="relative z-50 ltr:mr-auto rtl:ml-auto flex items-center">
+    <a class="-translate-y-[1px] text-2xl font-medium" href="https://hugo-paper.vercel.app/"
+      >你要去的地方</a
+    >
+    <div
+      class="btn-dark text-[0] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
   </div>
-  <nav>
+
+  <div
+    class="btn-menu relative z-50 ltr:-mr-8 rtl:-ml-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
     
-      
-        <a href="/">主页</a>
-      
-        <a href="/posts/">文章</a>
-      
-        <a href="/categories/">分类</a>
-      
-        <a href="/tags/">标签</a>
-      
-        <a href="/about/">关于</a>
-      
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
     
-  </nav>
-</div>
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse">
+      
+      <a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/"
+        >首页</a
+      >
+      
+      <a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/categories/"
+        >栏目</a
+      >
+      
+      <a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >关于</a
+      >
+      
+    </nav>
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 rtl:space-x-reverse dark:invert ltr:lg:ml-14 rtl:lg:mr-14 lg:mt-0 lg:items-center"
+    >
+      
+      <a
+        class="h-7 w-7 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./mastodon.svg)"
+        href="https://mastodon.social/@wildewu"
+        target="_blank"
+        rel="me"
+      >
+        mastodon
+      </a>
+      
+    </nav>
+    
+  </div>
 </header>
 
-      <div id="content">
-        
-	<div id="banner" >
-		<div class="banner-content">
-			<p>爱上某些事物的意愿</p>
-			<p style="text-align: right;">——《浪漫主义的根源》</p>
-		</div>
-	</div>
-	<main>
-		
-		
-			<article class="summary">
-  <a href="https://wudalian.com/posts/the-last-day-of-1999/" class="title" >《1999年的最后一天》</a>
-  
 
-
-
-
-
-
-
-
-
-  
-
-<div class="post-meta">
-  <div>
-    <time>2024-03-08</time>
-    <span>分类:</span>
-    
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-[--w] px-8 pb-16 pt-14 dark:prose-invert"
+    >
       
-      <a href="/categories/fiction">小说练习</a>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0">《1999年的最后一天》</h2>
+  <p><p>当然可以，我说。于是，我开始向她讲述1999年最后一天的事情。</p>
+<p>这是1999年的最后一天，这天很短，很快，新世纪马上就要来了。但这一天也很平常，天还没亮，母亲就把我叫醒了。温暖的被 …</p></p>
+  <time class="text-xs antialiased opacity-60"
+    >2024年3月8日</time
+  >
+  <a class="absolute inset-0 text-[0]" href="https://hugo-paper.vercel.app/post/the-last-day-of-1999/">《1999年的最后一天》</a>
+</section>
+
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0">在雪中小屋</h2>
+  <p><p>1</p>
+<p>在清晨，从罗瓦涅米出发，</p>
+<p>一辆老旧的大众汽车，</p>
+<p>是我们的新朋友。</p>
+<p>她比这个城镇上的人，更早地醒来。</p>
+<p>她带我们驶上一条模糊的公路，</p>
+<p>她试着用嗡嗡的引擎声将我唤醒。</p>
+<p>我说，嗨，我的 …</p></p>
+  <time class="text-xs antialiased opacity-60"
+    >2024年2月27日</time
+  >
+  <a class="absolute inset-0 text-[0]" href="https://hugo-paper.vercel.app/post/in-a-cabin-in-the-snow/">在雪中小屋</a>
+</section>
+
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0">姐姐</h2>
+  <p><p>大部分时间里，美是塌陷的，<br>
+那个半裸的肥胖男人，<br>
+他坐在他的土地上，<br>
+在那张静止的椅子上，<br>
+他和他们，谈笑风生。<br>
+有时候，他也会看向她，<br>
+对她说，那条裙子很难看。</p>
+<p>在另外一间房子， …</p></p>
+  <time class="text-xs antialiased opacity-60"
+    >2024年2月2日</time
+  >
+  <a class="absolute inset-0 text-[0]" href="https://hugo-paper.vercel.app/post/elder-sister/">姐姐</a>
+</section>
+
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0">西葫芦牛肉拌饭</h2>
+  <p><p>1.逆着纹理把牛肉（我用的是牛里脊）切成3毫米左右的薄片。放入料酒一勺、生抽一勺、淀粉一勺，抓拌到牛肉上裹着一点点淀粉浆。然后，再放入一点植物油抓拌均匀腌制10分钟。</p>
+<p>2.配菜：姜 …</p></p>
+  <time class="text-xs antialiased opacity-60"
+    >2024年1月18日</time
+  >
+  <a class="absolute inset-0 text-[0]" href="https://hugo-paper.vercel.app/post/zucchini-and-beef-bibimbap/">西葫芦牛肉拌饭</a>
+</section>
+
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0">我的眼疾-1</h2>
+  <p><p>大约一个多月前，我得了某种眼疾。</p>
+<p>当时，我并不知道我的眼睛具体出了什么问题，也没有预料到这个问题会折磨我这么长时间。但仔细回想，这早有征兆。以前在岚皋路上班的时候，每天我都会从一个 …</p></p>
+  <time class="text-xs antialiased opacity-60"
+    >2024年1月11日</time
+  >
+  <a class="absolute inset-0 text-[0]" href="https://hugo-paper.vercel.app/post/my-eye-disease-01/">我的眼疾-1</a>
+</section>
+
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0">你知道海绵宝宝在哪里工作吗？</h2>
+  <p><p>你知道海绵宝宝在哪里工作吗？</p>
+<p>答案是：中央电视台，因为他们一直在装电台。</p></p>
+  <time class="text-xs antialiased opacity-60"
+    >2024年1月5日</time
+  >
+  <a class="absolute inset-0 text-[0]" href="https://hugo-paper.vercel.app/post/do-you-know-where-spongebob-works/">你知道海绵宝宝在哪里工作吗？</a>
+</section>
+
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0">我的新博客</h2>
+  <p><p>又搞了一个新的博客，距离2005年我的第一个博客已经过去快20年了。</p></p>
+  <time class="text-xs antialiased opacity-60"
+    >2024年1月4日</time
+  >
+  <a class="absolute inset-0 text-[0]" href="https://hugo-paper.vercel.app/post/my-new-blog/">我的新博客</a>
+</section>
+
+
+
+
+<nav class="mt-14 flex">
+  
+  <a class="btn" href="/">← 上一页</a>
+  
+  
+</nav>
+
+
+
+    </main>
+
+    <footer
+  class="mx-auto flex h-[4.5rem] max-w-[--w] items-center px-8 text-xs uppercase tracking-wider opacity-60"
+>
+  <div class="mr-auto">
+  
+    &copy; 2024
+    <a class="link" href="https://hugo-paper.vercel.app/">吴大脸</a>
+  
   </div>
-</div>
-  <div class="content">
-    <p>当然可以，我说。于是，我开始向她讲述1999年最后一天的事情。
-这是1999年的最后一天，这天很短，很快，新世纪马上就要来了。但这一天也很平常，天还没亮，母亲就把我叫醒了。温暖的被窝让我有些不舍，我艰难地掀开压在身上的两床被子，缩手缩脚地往身上套厚重的棉衣棉裤，被窝里集聚了一夜的暖烘烘的空气慢慢消散在冰窖般的瓦屋里。母亲在另一头的房间里就着一盏15瓦的钨丝灯 …</p>
-    
-  </div>
-  
-    <div class="post-tags" >
-      
-        <a href="/tags/%E5%86%99%E4%BD%9C%E7%BB%83%E4%B9%A0">#写作练习</a>
-    </div>
-  
-</article>
-		
-			<article class="summary">
-  <a href="https://wudalian.com/posts/in-a-cabin-in-the-snow/" class="title" >在雪中小屋</a>
-  
-
-
-
-
-
-
-
-
-
-  
-
-<div class="post-meta">
-  <div>
-    <time>2024-02-27</time>
-    <span>分类:</span>
-    
-      
-      <a href="/categories/poem">危险诗歌</a>
-  </div>
-</div>
-  <div class="content">
-    <p>1
-在清晨，从罗瓦涅米出发，
-一辆老旧的大众汽车，
-是我们的新朋友。
-她比这个城镇上的人，更早地醒来。
-她带我们驶上一条模糊的公路，
-她试着用嗡嗡的引擎声将我唤醒。
-我说，嗨，我的新朋友，
-尽管我彻夜未眠，
-但我那雀跃的心，如同你的引擎一样，
-比这清晨还要清醒。
-我那刚从黑暗中脱离的双眼，
-比这空寂剔透的天空还要明亮。
-2
-在我们来到这里之前，
-大雪已将一切 …</p>
-    
-  </div>
-  
-</article>
-		
-			<article class="summary">
-  <a href="https://wudalian.com/posts/elder-sister/" class="title" >姐姐</a>
-  
-
-
-
-
-
-
-
-
-
-  
-
-<div class="post-meta">
-  <div>
-    <time>2024-02-02</time>
-    <span>分类:</span>
-    
-      
-      <a href="/categories/poem">危险诗歌</a>
-  </div>
-</div>
-  <div class="content">
-    <p>大部分时间里，美是塌陷的，
-那个半裸的肥胖男人，
-他坐在他的土地上，
-在那张静止的椅子上，
-他和他们，谈笑风生。
-有时候，他也会看向她，
-对她说，那条裙子很难看。
-在另外一间房子，另外一个， 同样肥胖的男孩，
-他曾是她藤蔓上的一片叶子， 他曾在她的柔软湖泊里，沉沉睡去。
-有时候，他关上了房门，
-对她说，这是他自己的空间。
-她也有自己的空间，伪装成一种绝对价 …</p>
-    
-  </div>
-  
-</article>
-		
-			<article class="summary">
-  <a href="https://wudalian.com/posts/zucchini-and-beef-bibimbap/" class="title" >西葫芦牛肉拌饭</a>
-  
-
-
-
-
-
-
-
-
-
-  
-
-<div class="post-meta">
-  <div>
-    <time>2024-01-18</time>
-    <span>分类:</span>
-    
-      
-      <a href="/categories/cooking">养锅的日子</a>
-  </div>
-</div>
-  <div class="content">
-    <p>1.逆着纹理把牛肉（我用的是牛里脊）切成3毫米左右的薄片。放入料酒一勺、生抽一勺、淀粉一勺，抓拌到牛肉上裹着一点点淀粉浆。然后，再放入一点植物油抓拌均匀腌制10分钟。
-2.配菜：姜蒜小葱切沫，超市买好的红剁椒酱准备一勺（白汤勺）。西葫芦先对半切，然后再切成同样3毫米左右的薄片。煎1-2个鸡蛋备用。
-4.锅加热后放少许的植物油，油热后放入牛肉，把牛肉拨匀，让牛 …</p>
-    
-  </div>
-  
-    <div class="post-tags" >
-      
-        <a href="/tags/%E5%90%83%E9%A5%AD">#吃饭</a>
-    </div>
-  
-</article>
-		
-			<article class="summary">
-  <a href="https://wudalian.com/posts/my-eye-disease-01/" class="title" >我的眼疾-1</a>
-  
-
-
-
-
-
-
-
-
-
-  
-
-<div class="post-meta">
-  <div>
-    <time>2024-01-11</time>
-    <span>分类:</span>
-    
-      
-      <a href="/categories/somebigbadidea">一些不错的主意</a>
-  </div>
-</div>
-  <div class="content">
-    <p>大约一个多月前，我得了某种眼疾。
-当时，我并不知道我的眼睛具体出了什么问题，也没有预料到这个问题会折磨我这么长时间。但仔细回想，这早有征兆。以前在岚皋路上班的时候，每天我都会从一个光线幽微的地下通道走出来，地上那一大片反射着巨大白光的水泥地总让我无法睁开眼睛。这种症状在其他一些场景也出现过，有一次，我和妻子在她家乡的小镇逛超市。看着货架上色彩繁杂的货品，我的 …</p>
-    
-  </div>
-  
-    <div class="post-tags" >
-      
-        <a href="/tags/%E6%88%91%E7%9A%84%E7%9C%BC%E7%96%BE">#我的眼疾</a>
-    </div>
-  
-</article>
-		
-			<article class="summary">
-  <a href="https://wudalian.com/posts/do-you-know-where-spongebob-works/" class="title" >你知道海绵宝宝在哪里工作吗？</a>
-  
-
-
-
-
-
-
-
-
-
-  
-
-<div class="post-meta">
-  <div>
-    <time>2024-01-05</time>
-    <span>分类:</span>
-    
-      
-      <a href="/categories/joke">失败的笑话</a>
-  </div>
-</div>
-  <div class="content">
-    <p>你知道海绵宝宝在哪里工作吗？
-答案是：中央电视台，因为他们一直在装电台。</p>
-    
-  </div>
-  
-    <div class="post-tags" >
-      
-        <a href="/tags/%E7%AC%91%E8%AF%9D">#笑话</a>
-    </div>
-  
-</article>
-		
-			<article class="summary">
-  <a href="https://wudalian.com/posts/my-new-blog/" class="title" >我的新博客</a>
-  
-
-
-
-
-
-
-
-
-
-  
-
-<div class="post-meta">
-  <div>
-    <time>2024-01-04</time>
-    <span>分类:</span>
-    
-      
-      <a href="/categories/somebigbadidea">一些不错的主意</a>
-  </div>
-</div>
-  <div class="content">
-    <p>又搞了一个新的博客，距离2005年我的第一个博客已经过去快20年了。</p>
-    
-  </div>
-  
-    <div class="post-tags" >
-      
-        <a href="/tags/blog">#blog</a>
-    </div>
-  
-</article>
-		
-		<div class="pagination" >
-  
-    <a href="/">Previous Page</a>
-  
-  2 / 2
-  
-</div>
-
-	</main>
-
-      </div>
-      <footer>
-  <p class="copyright">
-    Copyright © 2024
-    <a href="https://wudalian.com/"><strong>吴大脸</strong></a>.
-    Powered by
-    <a href="http://www.gohugo.io/" target="_blank" >Hugo</a>,
-    using the theme
-    <a href="https://gitlab.com/ian-s-mcb/smigle-hugo-theme" target="_blank" >smigle</a>
-  </p>
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-  <p class="analysis"  >
-    <span id="busuanzi_container_site_pv">总访问量<span id="busuanzi_value_site_pv"></span>次</span>
-    <span id="busuanzi_container_site_uv">总访客数<span id="busuanzi_value_site_uv"></span>人</span>
-  </p>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
 </footer>
 
-    </div>
-    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-<script>LA.init({id:"3HZZeFCuuGnTh34s",ck:"3HZZeFCuuGnTh34s"})</script>
   </body>
 </html>

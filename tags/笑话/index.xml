@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>笑话 on 吴大脸</title>
-    <link>https://wudalian.com/tags/%E7%AC%91%E8%AF%9D/</link>
-    <description>Recent content in 笑话 on 吴大脸</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 05 Jan 2024 11:10:17 +0800</lastBuildDate>
-    <atom:link href="https://wudalian.com/tags/%E7%AC%91%E8%AF%9D/index.xml" rel="self" type="application/rss+xml" />
+    <title>笑话 on 你要去的地方</title>
+    <link>https://hugo-paper.vercel.app/tags/%E7%AC%91%E8%AF%9D/</link>
+    <description>Recent content in 笑话 on 你要去的地方</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 05 Jan 2024 11:10:17 +0000</lastBuildDate>
+    <atom:link href="https://hugo-paper.vercel.app/tags/%E7%AC%91%E8%AF%9D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>你知道海绵宝宝在哪里工作吗？</title>
-      <link>https://wudalian.com/posts/do-you-know-where-spongebob-works/</link>
-      <pubDate>Fri, 05 Jan 2024 11:10:17 +0800</pubDate>
-      <guid>https://wudalian.com/posts/do-you-know-where-spongebob-works/</guid>
-      <description>你知道海绵宝宝在哪里工作吗？&#xA;答案是：中央电视台，因为他们一直在装电台。</description>
+      <link>https://hugo-paper.vercel.app/post/do-you-know-where-spongebob-works/</link>
+      <pubDate>Fri, 05 Jan 2024 11:10:17 +0000</pubDate>
+      <guid>https://hugo-paper.vercel.app/post/do-you-know-where-spongebob-works/</guid>
+      <description>&lt;p&gt;你知道海绵宝宝在哪里工作吗？&lt;/p&gt;&#xA;&lt;p&gt;答案是：中央电视台，因为他们一直在装电台。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

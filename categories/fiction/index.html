@@ -1,123 +1,318 @@
-<!DOCTYPE html>
-<html lang="zh">
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="zh"
+  dir="ltr"
+>
   <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
   
   
   
-    
   
-    
-  
-    
-  
-    
-  
-    
+  <title>小说练习 - 你要去的地方-吴大脸</title>
   
 
-  <meta name="description" content="尽管这一切有点糟，但到了要离别的时刻，我仍旧感到不舍与感伤。" />
-  <link rel="stylesheet" href="/css/font.css"/>
-  <link rel="stylesheet" href="/css/smigle.css"/>
   
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  
+  <meta
+    name="description"
+    content="A personal blog"
+  />
+  <meta name="author" content="吴大脸" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="https://hugo-paper.vercel.app/main.min.css" />
+
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/theme.png" />
+
+  
+  
+  
+  
+  <link rel="preload" as="image" href="/avatar.jpg" />
+  
+  
+
+  
+  
+  <link rel="preload" as="image" href="https://hugo-paper.vercel.app/mastodon.svg" />
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  <link
+    rel="icon"
+    href="https://hugo-paper.vercel.app/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="https://hugo-paper.vercel.app/apple-touch-icon.png"
+  />
+
+  
+  <meta name="generator" content="Hugo 0.136.4">
+
+  
+  
+  
+  
+  
+  
+  <meta itemprop="name" content="Fiction">
+  <meta itemprop="datePublished" content="2024-07-05T10:05:45+00:00">
+  <meta itemprop="dateModified" content="2024-07-05T10:05:45+00:00">
+  
+  <meta property="og:url" content="https://hugo-paper.vercel.app/categories/fiction/">
+  <meta property="og:site_name" content="你要去的地方">
+  <meta property="og:title" content="Fiction">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="website">
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Fiction">
+
+  
+  
+  <link
+    rel="alternate"
+    type="application/rss&#43;xml"
+    href="https://hugo-paper.vercel.app/categories/fiction/index.xml"
+    title="你要去的地方"
+  />
+  
+
+  
+  <link rel="canonical" href="https://hugo-paper.vercel.app/categories/fiction/" />
+  
+  
 </head>
 
-  <body>
-    <div id="root">
-      <header>
-<div class="header-content" >
-  <div id="brand">
-    <a class="icon-link" href="https://wudalian.com/"><img class="icon" src="/images/logo.png" /></a>
-    <div class="text">
-      <a href="https://wudalian.com/">吴大脸</a>
-    </div>
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-[--w] px-8 lg:justify-center">
+  <div class="relative z-50 ltr:mr-auto rtl:ml-auto flex items-center">
+    <a class="-translate-y-[1px] text-2xl font-medium" href="https://hugo-paper.vercel.app/"
+      >你要去的地方</a
+    >
+    <div
+      class="btn-dark text-[0] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
   </div>
-  <nav>
+
+  <div
+    class="btn-menu relative z-50 ltr:-mr-8 rtl:-ml-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
     
-      
-        <a href="/">主页</a>
-      
-        <a href="/posts/">文章</a>
-      
-        <a href="/categories/">分类</a>
-      
-        <a href="/tags/">标签</a>
-      
-        <a href="/about/">关于</a>
-      
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
     
-  </nav>
-</div>
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse">
+      
+      <a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/"
+        >首页</a
+      >
+      
+      <a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/categories/"
+        >栏目</a
+      >
+      
+      <a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >关于</a
+      >
+      
+    </nav>
+    
+
+    
+    <nav
+      class="mt-12 flex justify-center space-x-10 rtl:space-x-reverse dark:invert ltr:lg:ml-14 rtl:lg:mr-14 lg:mt-0 lg:items-center"
+    >
+      
+      <a
+        class="h-7 w-7 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
+        style="--url: url(./mastodon.svg)"
+        href="https://mastodon.social/@wildewu"
+        target="_blank"
+        rel="me"
+      >
+        mastodon
+      </a>
+      
+    </nav>
+    
+  </div>
 </header>
 
-      <div id="content">
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-[--w] px-8 pb-16 pt-14 dark:prose-invert"
+    >
+      
+
+
+<h1>小说练习</h1>
+    <ul>
         
+        <li>
+            <a href="https://hugo-paper.vercel.app/post/separation-anxiety/">分离焦虑</a> - <Span style="font-size: 12px;">2024-07-05</Span>
+            </li>
+        
+        <li>
+            <a href="https://hugo-paper.vercel.app/post/mental-patient/">神经病</a> - <Span style="font-size: 12px;">2024-07-04</Span>
+            </li>
+        
+        <li>
+            <a href="https://hugo-paper.vercel.app/post/the-last-day-of-1999/">《1999年的最后一天》</a> - <Span style="font-size: 12px;">2024-03-08</Span>
+            </li>
+        
+    </ul>
 
-<div class="page-menu" ><p><span>小说练习</span></p></div>
-  <main id="categories">
-    
-  <h3>2024</h3>
-  <ul id="postsByDate">
-    
-      <li>
-        <div class="date">
-          2024-07-05
-        </div>
-        <div class="title">
-          <a href="/posts/separation-anxiety/">《分离焦虑》</a>
-        </div>
-      </li>
-    
-      <li>
-        <div class="date">
-          2024-07-04
-        </div>
-        <div class="title">
-          <a href="/posts/mental-patient/">《神经病》</a>
-        </div>
-      </li>
-    
-      <li>
-        <div class="date">
-          2024-03-08
-        </div>
-        <div class="title">
-          <a href="/posts/the-last-day-of-1999/">《1999年的最后一天》</a>
-        </div>
-      </li>
-    
-  </ul>
+    </main>
 
-
-  </main>
-
-      </div>
-      <footer>
-  <p class="copyright">
-    Copyright © 2024
-    <a href="https://wudalian.com/"><strong>吴大脸</strong></a>.
-    Powered by
-    <a href="http://www.gohugo.io/" target="_blank" >Hugo</a>,
-    using the theme
-    <a href="https://gitlab.com/ian-s-mcb/smigle-hugo-theme" target="_blank" >smigle</a>
-  </p>
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-  <p class="analysis"  >
-    <span id="busuanzi_container_site_pv">总访问量<span id="busuanzi_value_site_pv"></span>次</span>
-    <span id="busuanzi_container_site_uv">总访客数<span id="busuanzi_value_site_uv"></span>人</span>
-  </p>
+    <footer
+  class="mx-auto flex h-[4.5rem] max-w-[--w] items-center px-8 text-xs uppercase tracking-wider opacity-60"
+>
+  <div class="mr-auto">
+  
+    &copy; 2024
+    <a class="link" href="https://hugo-paper.vercel.app/">吴大脸</a>
+  
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
 </footer>
 
-    </div>
-    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-<script>LA.init({id:"3HZZeFCuuGnTh34s",ck:"3HZZeFCuuGnTh34s"})</script>
   </body>
 </html>
