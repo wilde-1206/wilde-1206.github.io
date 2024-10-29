@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 你要去的地方</title>
-    <link>https://hugo-paper.vercel.app/tags/</link>
+    <link>https://wudalian.com/tags/</link>
     <description>Recent content in Tags on 你要去的地方</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Fri, 05 Jul 2024 10:05:45 +0000</lastBuildDate>
-    <atom:link href="https://hugo-paper.vercel.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wudalian.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Index</title>
-      <link>https://hugo-paper.vercel.app/tags/index/</link>
+      <link>https://wudalian.com/tags/index/</link>
       <pubDate>Fri, 05 Jul 2024 10:05:45 +0000</pubDate>
-      <guid>https://hugo-paper.vercel.app/tags/index/</guid>
+      <guid>https://wudalian.com/tags/index/</guid>
       <description></description>
     </item>
     <item>
       <title>写作练习</title>
-      <link>https://hugo-paper.vercel.app/tags/%E5%86%99%E4%BD%9C%E7%BB%83%E4%B9%A0/</link>
+      <link>https://wudalian.com/tags/%E5%86%99%E4%BD%9C%E7%BB%83%E4%B9%A0/</link>
       <pubDate>Fri, 05 Jul 2024 10:05:45 +0000</pubDate>
-      <guid>https://hugo-paper.vercel.app/tags/%E5%86%99%E4%BD%9C%E7%BB%83%E4%B9%A0/</guid>
+      <guid>https://wudalian.com/tags/%E5%86%99%E4%BD%9C%E7%BB%83%E4%B9%A0/</guid>
       <description></description>
     </item>
     <item>
       <title>吃饭</title>
-      <link>https://hugo-paper.vercel.app/tags/%E5%90%83%E9%A5%AD/</link>
+      <link>https://wudalian.com/tags/%E5%90%83%E9%A5%AD/</link>
       <pubDate>Thu, 18 Jan 2024 13:09:33 +0000</pubDate>
-      <guid>https://hugo-paper.vercel.app/tags/%E5%90%83%E9%A5%AD/</guid>
+      <guid>https://wudalian.com/tags/%E5%90%83%E9%A5%AD/</guid>
       <description></description>
     </item>
     <item>
       <title>我的眼疾</title>
-      <link>https://hugo-paper.vercel.app/tags/%E6%88%91%E7%9A%84%E7%9C%BC%E7%96%BE/</link>
+      <link>https://wudalian.com/tags/%E6%88%91%E7%9A%84%E7%9C%BC%E7%96%BE/</link>
       <pubDate>Thu, 11 Jan 2024 18:34:48 +0000</pubDate>
-      <guid>https://hugo-paper.vercel.app/tags/%E6%88%91%E7%9A%84%E7%9C%BC%E7%96%BE/</guid>
+      <guid>https://wudalian.com/tags/%E6%88%91%E7%9A%84%E7%9C%BC%E7%96%BE/</guid>
       <description></description>
     </item>
     <item>
       <title>笑话</title>
-      <link>https://hugo-paper.vercel.app/tags/%E7%AC%91%E8%AF%9D/</link>
+      <link>https://wudalian.com/tags/%E7%AC%91%E8%AF%9D/</link>
       <pubDate>Fri, 05 Jan 2024 11:10:17 +0000</pubDate>
-      <guid>https://hugo-paper.vercel.app/tags/%E7%AC%91%E8%AF%9D/</guid>
+      <guid>https://wudalian.com/tags/%E7%AC%91%E8%AF%9D/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>https://hugo-paper.vercel.app/tags/blog/</link>
+      <link>https://wudalian.com/tags/blog/</link>
       <pubDate>Thu, 04 Jan 2024 18:04:05 +0000</pubDate>
-      <guid>https://hugo-paper.vercel.app/tags/blog/</guid>
+      <guid>https://wudalian.com/tags/blog/</guid>
       <description></description>
     </item>
   </channel>

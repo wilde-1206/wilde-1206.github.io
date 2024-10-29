@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Joke on 你要去的地方</title>
-    <link>https://hugo-paper.vercel.app/categories/joke/</link>
+    <link>https://wudalian.com/categories/joke/</link>
     <description>Recent content in Joke on 你要去的地方</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Fri, 05 Jan 2024 11:10:17 +0000</lastBuildDate>
-    <atom:link href="https://hugo-paper.vercel.app/categories/joke/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wudalian.com/categories/joke/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>你知道海绵宝宝在哪里工作吗？</title>
-      <link>https://hugo-paper.vercel.app/post/do-you-know-where-spongebob-works/</link>
+      <link>https://wudalian.com/post/do-you-know-where-spongebob-works/</link>
       <pubDate>Fri, 05 Jan 2024 11:10:17 +0000</pubDate>
-      <guid>https://hugo-paper.vercel.app/post/do-you-know-where-spongebob-works/</guid>
+      <guid>https://wudalian.com/post/do-you-know-where-spongebob-works/</guid>
       <description>&lt;p&gt;你知道海绵宝宝在哪里工作吗？&lt;/p&gt;&#xA;&lt;p&gt;答案是：中央电视台，因为他们一直在装电台。&lt;/p&gt;</description>
     </item>
   </channel>
